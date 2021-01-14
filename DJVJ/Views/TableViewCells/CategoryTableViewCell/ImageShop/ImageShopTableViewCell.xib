@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Posterama 2001 W04 Regular.ttf">
+            <string>Posterama2001W04-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ImageShopTableViewCell" rowHeight="428" id="uev-qJ-Zwe" customClass="ImageShopTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="403" height="428"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uev-qJ-Zwe" id="DGT-ei-fqI">
+                <rect key="frame" x="0.0" y="0.0" width="403" height="427.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ztc-jR-rzY">
+                        <rect key="frame" x="10" y="5" width="323.5" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VJ Image PACK VOL.4 - MOVIES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0QP-C3-C40">
+                                <rect key="frame" x="8" y="14" width="234.5" height="12.5"/>
+                                <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="13"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="55.00$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b05-Q6-93i">
+                                <rect key="frame" x="272.5" y="14" width="45" height="12.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="cr5-Hg-XRK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.58431372550000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="13"/>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hRQ-vW-L6h">
+                                <rect key="frame" x="242.5" y="0.0" width="30" height="40"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_arrowdown_0095FF_default.png" translatesAutoresizingMaskIntoConstraints="NO" id="zOr-3m-vqV">
+                                        <rect key="frame" x="11" y="17.5" width="8" height="5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="zOr-3m-vqV" secondAttribute="height" multiplier="11:7" id="j7t-zu-Nl8"/>
+                                            <constraint firstAttribute="height" constant="5" id="tGL-T6-la8"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zOr-3m-vqV" firstAttribute="centerY" secondItem="hRQ-vW-L6h" secondAttribute="centerY" id="RD9-4A-YgI"/>
+                                    <constraint firstAttribute="width" constant="30" id="b0n-3o-eLX"/>
+                                    <constraint firstItem="zOr-3m-vqV" firstAttribute="centerX" secondItem="hRQ-vW-L6h" secondAttribute="centerX" id="yPV-sw-sl9"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTQ-eQ-UJc">
+                                <rect key="frame" x="0.0" y="0.0" width="323.5" height="40"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2784313725" green="0.27450980390000002" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0QP-C3-C40" firstAttribute="leading" secondItem="Ztc-jR-rzY" secondAttribute="leading" constant="8" id="1at-ET-9ib"/>
+                            <constraint firstItem="hRQ-vW-L6h" firstAttribute="leading" secondItem="0QP-C3-C40" secondAttribute="trailing" id="5Vl-Pw-3gy"/>
+                            <constraint firstAttribute="bottom" secondItem="RTQ-eQ-UJc" secondAttribute="bottom" id="7C6-EC-AsO"/>
+                            <constraint firstAttribute="bottom" secondItem="hRQ-vW-L6h" secondAttribute="bottom" id="9QB-4Z-H6S"/>
+                            <constraint firstItem="RTQ-eQ-UJc" firstAttribute="leading" secondItem="Ztc-jR-rzY" secondAttribute="leading" id="K44-ni-zav"/>
+                            <constraint firstAttribute="trailing" secondItem="b05-Q6-93i" secondAttribute="trailing" constant="6" id="Loa-Nr-7Bh"/>
+                            <constraint firstItem="RTQ-eQ-UJc" firstAttribute="top" secondItem="Ztc-jR-rzY" secondAttribute="top" id="QdJ-pM-2UV"/>
+                            <constraint firstAttribute="height" constant="40" id="Qpr-EK-wiO"/>
+                            <constraint firstItem="hRQ-vW-L6h" firstAttribute="top" secondItem="Ztc-jR-rzY" secondAttribute="top" id="e5O-g9-axs"/>
+                            <constraint firstItem="b05-Q6-93i" firstAttribute="leading" secondItem="hRQ-vW-L6h" secondAttribute="trailing" id="lki-oh-Ewf"/>
+                            <constraint firstItem="0QP-C3-C40" firstAttribute="centerY" secondItem="Ztc-jR-rzY" secondAttribute="centerY" id="uQf-XU-hxe"/>
+                            <constraint firstItem="b05-Q6-93i" firstAttribute="centerY" secondItem="Ztc-jR-rzY" secondAttribute="centerY" id="wGM-VU-Fwk"/>
+                            <constraint firstAttribute="trailing" secondItem="RTQ-eQ-UJc" secondAttribute="trailing" id="xRX-V1-BAn"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z54-Rp-No5">
+                        <rect key="frame" x="337.5" y="5" width="50.5" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Z54-Rp-No5" secondAttribute="height" multiplier="141:112" id="wJ7-Xe-Cqn"/>
+                            <constraint firstAttribute="height" constant="40" id="zpy-B2-TYl"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbX-oH-bYs">
+                        <rect key="frame" x="333.5" y="-1" width="59" height="52"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="WbX-oH-bYs" secondAttribute="height" multiplier="165:146" id="FxI-g1-r7J"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="10"/>
+                        <state key="normal" title="BUY" backgroundImage="button_fxpad_menu_0095FF_glow_default_changed.png">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="13"/>
+                        </variation>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qQP-C1-CE5">
+                        <rect key="frame" x="10" y="55" width="378" height="367.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x 12 videos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fng-E2-xUv">
+                                <rect key="frame" x="10" y="10" width="58" height="12"/>
+                                <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="10"/>
+                                <color key="textColor" red="0.54117647059999996" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="13"/>
+                                </variation>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="1Lu-rt-3NV">
+                                <rect key="frame" x="5" y="35" width="368" height="327.5"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="zle-9p-vHc">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <connections>
+                                    <outlet property="dataSource" destination="uev-qJ-Zwe" id="dDs-zz-yVC"/>
+                                    <outlet property="delegate" destination="uev-qJ-Zwe" id="K1b-Fp-mZL"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.23921568630000001" green="0.23529411759999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="1Lu-rt-3NV" secondAttribute="trailing" constant="5" id="4UO-qC-Zcb"/>
+                            <constraint firstAttribute="bottom" secondItem="1Lu-rt-3NV" secondAttribute="bottom" constant="5" id="QLb-MP-4jY"/>
+                            <constraint firstItem="Fng-E2-xUv" firstAttribute="top" secondItem="qQP-C1-CE5" secondAttribute="top" constant="10" id="a6u-cZ-eCP"/>
+                            <constraint firstItem="1Lu-rt-3NV" firstAttribute="leading" secondItem="qQP-C1-CE5" secondAttribute="leading" constant="5" id="gwE-zz-xm9"/>
+                            <constraint firstItem="1Lu-rt-3NV" firstAttribute="top" secondItem="qQP-C1-CE5" secondAttribute="top" constant="35" id="mMa-uY-t7w"/>
+                            <constraint firstItem="Fng-E2-xUv" firstAttribute="leading" secondItem="qQP-C1-CE5" secondAttribute="leading" constant="10" id="u08-Kx-pO3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WbX-oH-bYs" firstAttribute="leading" secondItem="Ztc-jR-rzY" secondAttribute="trailing" id="0jb-4S-iOU"/>
+                    <constraint firstItem="qQP-C1-CE5" firstAttribute="leading" secondItem="DGT-ei-fqI" secondAttribute="leading" constant="10" id="2CF-Cl-oXS"/>
+                    <constraint firstItem="Ztc-jR-rzY" firstAttribute="top" secondItem="DGT-ei-fqI" secondAttribute="top" constant="5" id="Bk3-E6-DXX"/>
+                    <constraint firstItem="WbX-oH-bYs" firstAttribute="centerY" secondItem="Z54-Rp-No5" secondAttribute="centerY" id="Kx0-Q1-5Ug"/>
+                    <constraint firstItem="qQP-C1-CE5" firstAttribute="top" secondItem="DGT-ei-fqI" secondAttribute="top" constant="55" id="Vla-52-nPE"/>
+                    <constraint firstAttribute="trailing" secondItem="qQP-C1-CE5" secondAttribute="trailing" constant="15" id="Zai-fG-fyN"/>
+                    <constraint firstItem="Ztc-jR-rzY" firstAttribute="leading" secondItem="DGT-ei-fqI" secondAttribute="leading" constant="10" id="cZh-h5-cYR"/>
+                    <constraint firstAttribute="trailing" secondItem="Z54-Rp-No5" secondAttribute="trailing" constant="15" id="d5W-5x-w6u"/>
+                    <constraint firstAttribute="bottom" secondItem="qQP-C1-CE5" secondAttribute="bottom" constant="5" id="dcc-eG-u6K"/>
+                    <constraint firstItem="WbX-oH-bYs" firstAttribute="height" secondItem="Z54-Rp-No5" secondAttribute="height" multiplier="73:56" id="dxv-AZ-8Kd"/>
+                    <constraint firstItem="Z54-Rp-No5" firstAttribute="top" secondItem="DGT-ei-fqI" secondAttribute="top" constant="5" id="qpx-Mc-voS"/>
+                    <constraint firstItem="WbX-oH-bYs" firstAttribute="centerX" secondItem="Z54-Rp-No5" secondAttribute="centerX" id="wgl-Zh-agc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Xci-YH-6BS"/>
+            <connections>
+                <outlet property="btn_buy" destination="WbX-oH-bYs" id="dTA-Nu-0P3"/>
+                <outlet property="btn_extend" destination="RTQ-eQ-UJc" id="zDm-hm-RYX"/>
+                <outlet property="collectionView_images" destination="1Lu-rt-3NV" id="rYW-Tq-RjT"/>
+                <outlet property="img_extend" destination="zOr-3m-vqV" id="BDV-lo-QSX"/>
+                <outlet property="lbl_PackageName" destination="0QP-C3-C40" id="RAD-ig-UbJ"/>
+                <outlet property="lbl_countsBottom" destination="Fng-E2-xUv" id="hOQ-R7-woW"/>
+                <outlet property="lbl_price" destination="b05-Q6-93i" id="Bj7-oS-cGu"/>
+                <outlet property="view_Package" destination="Ztc-jR-rzY" id="7Oh-wl-n1Y"/>
+                <outlet property="view_extend" destination="qQP-C1-CE5" id="JFk-Ew-UxA"/>
+            </connections>
+            <point key="canvasLocation" x="9.4202898550724647" y="-4.6875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="button_fxpad_menu_0095FF_glow_default_changed.png" width="233" height="206"/>
+        <image name="icon_arrowdown_0095FF_default.png" width="11" height="7"/>
+    </resources>
+</document>

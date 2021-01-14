@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>DJVJ</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Please allow DJVJ to access the Media Library so that the audio sensors can make the channels bounce to the music.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>app allow use camera to taken photo</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Please allow DJVJ to access the microphone so that the audio sensors can make the channels bounce to the music.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please allow DJVJ to use photo library so that the recording videos can save in photos album</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Posterama 2001 W04 UltraBlack.ttf</string>
+		<string>Posterama 2001 W04 Black.ttf</string>
+		<string>Posterama 2001 W04 Thin.ttf</string>
+		<string>Posterama 2001 W04 SemiBold.ttf</string>
+		<string>Posterama 2001 W04 Regular.ttf</string>
+		<string>Posterama 2001 W04 Light.ttf</string>
+		<string>Posterama 2001 W04 Bold.ttf</string>
+		<string>AbrilFatface-Regular.ttf</string>
+		<string>AmaticSC-Bold.ttf</string>
+		<string>AmaticSC-Regular.ttf</string>
+		<string>Audiowide-Regular.ttf</string>
+		<string>CabinSketch-Bold.ttf</string>
+		<string>CabinSketch-Regular.ttf</string>
+		<string>Chunkfive.ttf</string>
+		<string>FascinateInline-Regular.ttf</string>
+		<string>Monoton-Regular.ttf</string>
+		<string>PressStart2P-Regular.ttf</string>
+		<string>Raleway-Black.ttf</string>
+		<string>Raleway-BlackItalic.ttf</string>
+		<string>Raleway-Bold.ttf</string>
+		<string>Raleway-BoldItalic.ttf</string>
+		<string>Raleway-ExtraBold.ttf</string>
+		<string>Raleway-ExtraBoldItalic.ttf</string>
+		<string>Raleway-ExtraLight.ttf</string>
+		<string>Raleway-ExtraLightItalic.ttf</string>
+		<string>Raleway-Italic.ttf</string>
+		<string>Raleway-Light.ttf</string>
+		<string>Raleway-LightItalic.ttf</string>
+		<string>Raleway-Medium.ttf</string>
+		<string>Raleway-MediumItalic.ttf</string>
+		<string>Raleway-Regular.ttf</string>
+		<string>Raleway-SemiBold.ttf</string>
+		<string>Raleway-SemiBoldItalic.ttf</string>
+		<string>Raleway-Thin.ttf</string>
+		<string>Raleway-ThinItalic.ttf</string>
+		<string>ShadowsInto-Light.ttf</string>
+	</array>
+	<key>UIInterfaceOrientation</key>
+	<string>UIInterfaceOrientationPortrait</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>firebase_crashlytics_collection_enabled</key>
+	<true/>
+</dict>
+</plist>

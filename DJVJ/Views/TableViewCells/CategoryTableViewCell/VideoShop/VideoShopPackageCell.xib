@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Posterama 2001 W04 Regular.ttf">
+            <string>Posterama2001W04-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoShopPackageCell" rowHeight="428" id="gcc-g6-eSY" customClass="VideoShopPackageCell">
+            <rect key="frame" x="0.0" y="0.0" width="403" height="428"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gcc-g6-eSY" id="YP8-7a-fjc">
+                <rect key="frame" x="0.0" y="0.0" width="403" height="427.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OBd-GL-AAL">
+                        <rect key="frame" x="10" y="5" width="323.5" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VJ VIDEO PACK VOL.4 - MOVIES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KZ6-ry-SPC">
+                                <rect key="frame" x="8" y="14" width="234.5" height="12.5"/>
+                                <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="13"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="55.00$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C5j-Ye-BB8">
+                                <rect key="frame" x="272.5" y="14" width="45" height="12.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="NkZ-7g-KXl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.58431372549019611" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="13"/>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hSe-kV-xWW">
+                                <rect key="frame" x="242.5" y="0.0" width="30" height="40"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_arrowdown_0095FF_default.png" translatesAutoresizingMaskIntoConstraints="NO" id="HZw-Wj-fhW">
+                                        <rect key="frame" x="11" y="17.5" width="8" height="5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="5" id="qow-HF-t5O"/>
+                                            <constraint firstAttribute="width" secondItem="HZw-Wj-fhW" secondAttribute="height" multiplier="11:7" id="z91-8L-bTt"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="HZw-Wj-fhW" firstAttribute="centerX" secondItem="hSe-kV-xWW" secondAttribute="centerX" id="93P-vy-myq"/>
+                                    <constraint firstAttribute="width" constant="30" id="fuL-Gb-GR9"/>
+                                    <constraint firstItem="HZw-Wj-fhW" firstAttribute="centerY" secondItem="hSe-kV-xWW" secondAttribute="centerY" id="x3h-FR-FKs"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YS0-p4-hVk">
+                                <rect key="frame" x="0.0" y="0.0" width="323.5" height="40"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2784313725" green="0.27450980390000002" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="C5j-Ye-BB8" firstAttribute="leading" secondItem="hSe-kV-xWW" secondAttribute="trailing" id="DSK-rN-s9J"/>
+                            <constraint firstAttribute="trailing" secondItem="YS0-p4-hVk" secondAttribute="trailing" id="IOK-aZ-YIe"/>
+                            <constraint firstItem="hSe-kV-xWW" firstAttribute="top" secondItem="OBd-GL-AAL" secondAttribute="top" id="LJ1-Bm-gSr"/>
+                            <constraint firstItem="YS0-p4-hVk" firstAttribute="top" secondItem="OBd-GL-AAL" secondAttribute="top" id="LUo-Yz-1yz"/>
+                            <constraint firstItem="KZ6-ry-SPC" firstAttribute="leading" secondItem="OBd-GL-AAL" secondAttribute="leading" constant="8" id="PEz-Dh-ia2"/>
+                            <constraint firstItem="YS0-p4-hVk" firstAttribute="leading" secondItem="OBd-GL-AAL" secondAttribute="leading" id="Whf-qE-Qiu"/>
+                            <constraint firstAttribute="bottom" secondItem="YS0-p4-hVk" secondAttribute="bottom" id="blt-wk-pT7"/>
+                            <constraint firstItem="KZ6-ry-SPC" firstAttribute="centerY" secondItem="OBd-GL-AAL" secondAttribute="centerY" id="cIf-hP-vS5"/>
+                            <constraint firstAttribute="bottom" secondItem="hSe-kV-xWW" secondAttribute="bottom" id="kjA-kx-u6O"/>
+                            <constraint firstAttribute="trailing" secondItem="C5j-Ye-BB8" secondAttribute="trailing" constant="6" id="mvX-nx-uzy"/>
+                            <constraint firstItem="C5j-Ye-BB8" firstAttribute="centerY" secondItem="OBd-GL-AAL" secondAttribute="centerY" id="vbE-sE-nn7"/>
+                            <constraint firstAttribute="height" constant="40" id="wrd-vb-PST"/>
+                            <constraint firstItem="hSe-kV-xWW" firstAttribute="leading" secondItem="KZ6-ry-SPC" secondAttribute="trailing" id="zp0-Nx-9Mz"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LJG-hB-dvP">
+                        <rect key="frame" x="337.5" y="5" width="50.5" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="LJG-hB-dvP" secondAttribute="height" multiplier="141:112" id="Pwm-4Q-fJC"/>
+                            <constraint firstAttribute="height" constant="40" id="xi5-Rd-hBS"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ntv-zn-ac8">
+                        <rect key="frame" x="333.5" y="-1" width="59" height="52"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Ntv-zn-ac8" secondAttribute="height" multiplier="165:146" id="wug-EM-Eim"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="10"/>
+                        <state key="normal" title="BUY" backgroundImage="button_fxpad_menu_0095FF_glow_default_changed.png">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="13"/>
+                        </variation>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VGt-Ug-RfT">
+                        <rect key="frame" x="10" y="55" width="378" height="367.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x 12 videos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaJ-rO-QYr">
+                                <rect key="frame" x="10" y="10" width="58" height="12"/>
+                                <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="10"/>
+                                <color key="textColor" red="0.54117647059999996" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="13"/>
+                                </variation>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="IQ9-Vn-eHg">
+                                <rect key="frame" x="5" y="35" width="368" height="327.5"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="HyO-Zd-heU">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <connections>
+                                    <outlet property="dataSource" destination="gcc-g6-eSY" id="DoN-yE-JpR"/>
+                                    <outlet property="delegate" destination="gcc-g6-eSY" id="dfV-xa-vKL"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 1080x1920 px" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L45-x4-FJb">
+                                <rect key="frame" x="72" y="10" width="74" height="12"/>
+                                <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="10"/>
+                                <color key="textColor" red="0.54117647059999996" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Posterama2001W04-Regular" family="Posterama2001W04-Regular" pointSize="13"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.23921568630000001" green="0.23529411759999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="IQ9-Vn-eHg" secondAttribute="trailing" constant="5" id="2MZ-pw-CdP"/>
+                            <constraint firstItem="IQ9-Vn-eHg" firstAttribute="top" secondItem="VGt-Ug-RfT" secondAttribute="top" constant="35" id="9IB-Hd-Kh2"/>
+                            <constraint firstItem="L45-x4-FJb" firstAttribute="leading" secondItem="TaJ-rO-QYr" secondAttribute="trailing" constant="4" id="AOg-ZZ-Qq8"/>
+                            <constraint firstAttribute="bottom" secondItem="IQ9-Vn-eHg" secondAttribute="bottom" constant="5" id="FjE-DB-a33"/>
+                            <constraint firstItem="L45-x4-FJb" firstAttribute="centerY" secondItem="TaJ-rO-QYr" secondAttribute="centerY" id="KKP-7q-LPe"/>
+                            <constraint firstItem="TaJ-rO-QYr" firstAttribute="top" secondItem="VGt-Ug-RfT" secondAttribute="top" constant="10" id="a3d-xK-8nA"/>
+                            <constraint firstItem="IQ9-Vn-eHg" firstAttribute="leading" secondItem="VGt-Ug-RfT" secondAttribute="leading" constant="5" id="cFZ-rO-NgN"/>
+                            <constraint firstItem="TaJ-rO-QYr" firstAttribute="leading" secondItem="VGt-Ug-RfT" secondAttribute="leading" constant="10" id="znI-Nd-dI5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="OBd-GL-AAL" firstAttribute="leading" secondItem="YP8-7a-fjc" secondAttribute="leading" constant="10" id="0K2-Gh-7gv"/>
+                    <constraint firstItem="LJG-hB-dvP" firstAttribute="top" secondItem="YP8-7a-fjc" secondAttribute="top" constant="5" id="1X8-My-vWA"/>
+                    <constraint firstItem="VGt-Ug-RfT" firstAttribute="top" secondItem="YP8-7a-fjc" secondAttribute="top" constant="55" id="1nh-Yt-4j2"/>
+                    <constraint firstItem="Ntv-zn-ac8" firstAttribute="leading" secondItem="OBd-GL-AAL" secondAttribute="trailing" id="43F-3a-Xca"/>
+                    <constraint firstItem="OBd-GL-AAL" firstAttribute="top" secondItem="YP8-7a-fjc" secondAttribute="top" constant="5" id="60a-Je-eEQ"/>
+                    <constraint firstItem="Ntv-zn-ac8" firstAttribute="centerY" secondItem="LJG-hB-dvP" secondAttribute="centerY" id="B04-cN-Ace"/>
+                    <constraint firstAttribute="trailing" secondItem="LJG-hB-dvP" secondAttribute="trailing" constant="15" id="OT6-vm-VAI"/>
+                    <constraint firstItem="Ntv-zn-ac8" firstAttribute="centerX" secondItem="LJG-hB-dvP" secondAttribute="centerX" id="agQ-yq-qmx"/>
+                    <constraint firstItem="VGt-Ug-RfT" firstAttribute="leading" secondItem="YP8-7a-fjc" secondAttribute="leading" constant="10" id="bCt-ah-QmM"/>
+                    <constraint firstAttribute="trailing" secondItem="VGt-Ug-RfT" secondAttribute="trailing" constant="15" id="djj-oc-BS4"/>
+                    <constraint firstAttribute="bottom" secondItem="VGt-Ug-RfT" secondAttribute="bottom" constant="5" id="iAU-1s-auN"/>
+                    <constraint firstItem="Ntv-zn-ac8" firstAttribute="height" secondItem="LJG-hB-dvP" secondAttribute="height" multiplier="73:56" id="z1u-MZ-ehr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="nmK-zh-Y5b"/>
+            <connections>
+                <outlet property="btn_buy" destination="Ntv-zn-ac8" id="0Cf-RI-FPK"/>
+                <outlet property="btn_extend" destination="YS0-p4-hVk" id="hO9-xN-vaR"/>
+                <outlet property="collectionView_images" destination="IQ9-Vn-eHg" id="37I-Z8-GUj"/>
+                <outlet property="img_extend" destination="HZw-Wj-fhW" id="qVE-CJ-47l"/>
+                <outlet property="lbl_PackageName" destination="KZ6-ry-SPC" id="mpH-l7-HlV"/>
+                <outlet property="lbl_countsBottom" destination="TaJ-rO-QYr" id="NWC-eC-5cz"/>
+                <outlet property="lbl_price" destination="C5j-Ye-BB8" id="kF3-GW-SUS"/>
+                <outlet property="lbl_videoSizeBottom" destination="L45-x4-FJb" id="Wib-Om-Rnr"/>
+                <outlet property="view_Package" destination="OBd-GL-AAL" id="jXH-3E-79i"/>
+                <outlet property="view_extend" destination="VGt-Ug-RfT" id="bBZ-YP-FJt"/>
+            </connections>
+            <point key="canvasLocation" x="9.4202898550724647" y="-4.6875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="button_fxpad_menu_0095FF_glow_default_changed.png" width="233" height="206"/>
+        <image name="icon_arrowdown_0095FF_default.png" width="11" height="7"/>
+    </resources>
+</document>

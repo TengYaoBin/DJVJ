@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VideoCollectionViewCell" id="gTV-IL-0wX" customClass="ImageCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="209" height="145"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="209" height="145"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xtx-8Z-Cou">
+                        <rect key="frame" x="0.0" y="0.0" width="209" height="145"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mZ7-IA-2e2">
+                                <rect key="frame" x="10" y="10" width="189" height="125"/>
+                                <color key="backgroundColor" red="0.23921568630000001" green="0.23529411759999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pkc-8j-3wz">
+                                <rect key="frame" x="5" y="5" width="199" height="135"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIo-gB-tkM">
+                                <rect key="frame" x="0.0" y="0.0" width="209" height="145"/>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="fIo-gB-tkM" firstAttribute="top" secondItem="xtx-8Z-Cou" secondAttribute="top" id="0aD-rh-NjC"/>
+                            <constraint firstAttribute="bottom" secondItem="mZ7-IA-2e2" secondAttribute="bottom" constant="10" id="799-Je-Rm9"/>
+                            <constraint firstAttribute="trailing" secondItem="mZ7-IA-2e2" secondAttribute="trailing" constant="10" id="9jI-wg-Nsj"/>
+                            <constraint firstAttribute="trailing" secondItem="fIo-gB-tkM" secondAttribute="trailing" id="Kxb-7s-jZk"/>
+                            <constraint firstItem="fIo-gB-tkM" firstAttribute="leading" secondItem="xtx-8Z-Cou" secondAttribute="leading" id="Oyf-wT-k4x"/>
+                            <constraint firstItem="Pkc-8j-3wz" firstAttribute="leading" secondItem="xtx-8Z-Cou" secondAttribute="leading" constant="5" id="j0B-PK-Wei"/>
+                            <constraint firstAttribute="trailing" secondItem="Pkc-8j-3wz" secondAttribute="trailing" constant="5" id="jMs-22-UMa"/>
+                            <constraint firstItem="Pkc-8j-3wz" firstAttribute="top" secondItem="xtx-8Z-Cou" secondAttribute="top" constant="5" id="jPh-SD-1HS"/>
+                            <constraint firstAttribute="bottom" secondItem="fIo-gB-tkM" secondAttribute="bottom" id="nmo-wA-ccQ"/>
+                            <constraint firstAttribute="bottom" secondItem="Pkc-8j-3wz" secondAttribute="bottom" constant="5" id="qwi-fZ-2Xa"/>
+                            <constraint firstItem="mZ7-IA-2e2" firstAttribute="top" secondItem="xtx-8Z-Cou" secondAttribute="top" constant="10" id="y0b-VW-TMJ"/>
+                            <constraint firstItem="mZ7-IA-2e2" firstAttribute="leading" secondItem="xtx-8Z-Cou" secondAttribute="leading" constant="10" id="yPi-ZC-Ch4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="xtx-8Z-Cou" secondAttribute="trailing" id="b2c-DP-g8T"/>
+                <constraint firstItem="xtx-8Z-Cou" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="i2K-Ym-ghk"/>
+                <constraint firstAttribute="bottom" secondItem="xtx-8Z-Cou" secondAttribute="bottom" id="oE4-sW-S3D"/>
+                <constraint firstItem="xtx-8Z-Cou" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="qnx-H4-dsl"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="209" height="145"/>
+            <connections>
+                <outlet property="btn_item" destination="fIo-gB-tkM" id="4yJ-gL-e0i"/>
+                <outlet property="img_highlighted" destination="mZ7-IA-2e2" id="QKC-fE-zPo"/>
+                <outlet property="img_view" destination="Pkc-8j-3wz" id="KBS-Jl-GNJ"/>
+                <outlet property="view_container" destination="xtx-8Z-Cou" id="vTd-8Y-mgh"/>
+            </connections>
+            <point key="canvasLocation" x="95.200000000000003" y="130.88455772113943"/>
+        </collectionViewCell>
+    </objects>
+</document>

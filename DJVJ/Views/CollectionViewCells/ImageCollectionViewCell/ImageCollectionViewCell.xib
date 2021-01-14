@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageCollectionViewCell" id="I6Z-vp-P9o" customClass="ImageCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="209" height="145"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="209" height="145"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r9m-3K-vfX">
+                        <rect key="frame" x="0.0" y="0.0" width="209" height="145"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mui-wO-xoC">
+                                <rect key="frame" x="10" y="10" width="189" height="125"/>
+                                <color key="backgroundColor" red="0.23921568630000001" green="0.23529411759999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JRQ-5p-oe7">
+                                <rect key="frame" x="5" y="5" width="199" height="135"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LtS-eN-bvd">
+                                <rect key="frame" x="0.0" y="0.0" width="209" height="145"/>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="LtS-eN-bvd" firstAttribute="leading" secondItem="r9m-3K-vfX" secondAttribute="leading" id="8yB-2m-7EG"/>
+                            <constraint firstItem="JRQ-5p-oe7" firstAttribute="leading" secondItem="r9m-3K-vfX" secondAttribute="leading" constant="5" id="9Jl-tp-yDI"/>
+                            <constraint firstAttribute="bottom" secondItem="JRQ-5p-oe7" secondAttribute="bottom" constant="5" id="C2f-2S-LdU"/>
+                            <constraint firstItem="JRQ-5p-oe7" firstAttribute="top" secondItem="r9m-3K-vfX" secondAttribute="top" constant="5" id="DwI-0g-HkA"/>
+                            <constraint firstAttribute="trailing" secondItem="LtS-eN-bvd" secondAttribute="trailing" id="KV2-WP-XCs"/>
+                            <constraint firstAttribute="trailing" secondItem="JRQ-5p-oe7" secondAttribute="trailing" constant="5" id="SbH-Yn-BhC"/>
+                            <constraint firstAttribute="trailing" secondItem="mui-wO-xoC" secondAttribute="trailing" constant="10" id="U2j-bR-56O"/>
+                            <constraint firstAttribute="bottom" secondItem="mui-wO-xoC" secondAttribute="bottom" constant="10" id="VNO-8b-shF"/>
+                            <constraint firstItem="mui-wO-xoC" firstAttribute="leading" secondItem="r9m-3K-vfX" secondAttribute="leading" constant="10" id="ZXC-7z-98W"/>
+                            <constraint firstAttribute="bottom" secondItem="LtS-eN-bvd" secondAttribute="bottom" id="jnb-yb-bzs"/>
+                            <constraint firstItem="LtS-eN-bvd" firstAttribute="top" secondItem="r9m-3K-vfX" secondAttribute="top" id="wtL-BB-n66"/>
+                            <constraint firstItem="mui-wO-xoC" firstAttribute="top" secondItem="r9m-3K-vfX" secondAttribute="top" constant="10" id="zJ4-fV-4XO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="r9m-3K-vfX" secondAttribute="trailing" id="QCo-9j-oKy"/>
+                <constraint firstItem="r9m-3K-vfX" firstAttribute="leading" secondItem="I6Z-vp-P9o" secondAttribute="leading" id="RqO-y7-rcu"/>
+                <constraint firstItem="r9m-3K-vfX" firstAttribute="top" secondItem="I6Z-vp-P9o" secondAttribute="top" id="TFJ-DO-QRj"/>
+                <constraint firstAttribute="bottom" secondItem="r9m-3K-vfX" secondAttribute="bottom" id="rKy-1V-vih"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Gd6-sL-bcJ"/>
+            <size key="customSize" width="209" height="145"/>
+            <connections>
+                <outlet property="btn_item" destination="LtS-eN-bvd" id="nI4-ig-GHM"/>
+                <outlet property="img_highlighted" destination="mui-wO-xoC" id="cej-eG-7R0"/>
+                <outlet property="img_view" destination="JRQ-5p-oe7" id="wi4-Pj-BuA"/>
+                <outlet property="view_container" destination="r9m-3K-vfX" id="sJO-Vz-asY"/>
+            </connections>
+            <point key="canvasLocation" x="95.200000000000003" y="130.88455772113943"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Crop" representedClassName="Crop" syncable="YES" codeGenerationType="class">
+        <attribute name="cropID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="end" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DownloadImage" representedClassName="DownloadImage" syncable="YES" codeGenerationType="class">
+        <attribute name="downloadUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="package_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DownloadImagePackage" representedClassName="DownloadImagePackage" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DownloadVideo" representedClassName="DownloadVideo" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="package_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DownloadVideoPackage" representedClassName="DownloadVideoPackage" syncable="YES" codeGenerationType="class">
+        <attribute name="height" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Frame" representedClassName="Frame" syncable="YES" codeGenerationType="class">
+        <attribute name="frameID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="frameNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PurchageImage" representedClassName="PurchageImage" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="package_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PurchageVideo" representedClassName="PurchageVideo" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="package_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Crop" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="DownloadVideo" positionX="-54" positionY="45" width="128" height="90"/>
+        <element name="DownloadVideoPackage" positionX="-63" positionY="36" width="128" height="105"/>
+        <element name="Frame" positionX="-63" positionY="27" width="128" height="105"/>
+        <element name="PurchageImage" positionX="-63" positionY="36" width="128" height="75"/>
+        <element name="PurchageVideo" positionX="-63" positionY="36" width="128" height="75"/>
+        <element name="DownloadImage" positionX="-36" positionY="54" width="128" height="105"/>
+        <element name="DownloadImagePackage" positionX="-18" positionY="63" width="128" height="75"/>
+    </elements>
+</model>
