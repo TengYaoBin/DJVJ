@@ -15,7 +15,7 @@ Become a professional video jockey with this VJ app, mixing up to 5 visual layer
 
 - AppStore (recommend)
 
-  > [**ARuler** https://apps.apple.com/us/app/djvj/id1446550854](https://apps.apple.com/us/app/djvj/id1446550854)
+  > [**DJVJr** https://apps.apple.com/us/app/djvj/id1446550854](https://apps.apple.com/us/app/djvj/id1446550854)
 
 
 ## Capability
