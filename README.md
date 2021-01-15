@@ -1,77 +1,54 @@
-# Ruler
-> A simple AR ruler app can measure length &amp; area
+# DJVJ
+> A Video Mixing app can overlay and blend video.
 
 ![Xcode 9.0+](https://img.shields.io/badge/Xcode-9.0%2B-blue.svg)
 ![iOS 11.0+](https://img.shields.io/badge/iOS-11.0%2B-blue.svg)
-![Swift 4.0+](https://img.shields.io/badge/Swift-4.0%2B-orange.svg)
-[![Build Status](https://travis-ci.org/TBXark/Ruler.svg?branch=master)](https://travis-ci.org/TBXark/Ruler)
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/TBXark/TKRubberIndicator/master/LICENSE)
 
-![](logo.png)
+## Description
 
+Become a professional video jockey with this VJ app, mixing up to 5 visual layers at once: two video channels, one image layer, one text layer and a special effects button-pad. Use this video jockey app to create amazing video loops and mix your videos like a pro everywhere, achieving an experience never seen before.
 
-## Requirements
-
-- Swift 4.0
-- iOS 11.0
-- Xcode 9.0
-
-
-## Preview
-
-1. Mesure Length 
-
-youtube : [https://youtu.be/2wKLUqPizfQ](https://youtu.be/2wKLUqPizfQ)
-
-![](demo_length.png) 
-
-
-2. Mesure Area 
-
-youtube : [https://youtu.be/gRd1Ag4C7lU](https://youtu.be/gRd1Ag4C7lU)
-
-![](demo_area.png)
+![](djvj.jpg)
 
 
 ## Install
 
 - AppStore (recommend)
 
-  > [**ARuler** https://itunes.apple.com/us/app/id1287068680](https://itunes.apple.com/us/app/id1287068680)
+  > [**ARuler** https://apps.apple.com/us/app/djvj/id1446550854](https://apps.apple.com/us/app/djvj/id1446550854)
 
 
-- Manually compile
-  1.  `git clone https://github.com/TBXark/Ruler `
-  2. `pod install`
-  3. Compile project with Xcode
+## Capability
+
+- Mix visuals that bounce to the music! Your device’s microphone is used as a sensor to make your mix react to the music. Each channel has it’s own sensor slider so you can choose how sensitive it is to the audio input. Watch your creations jump to the beat in real time!
+
+- VJ loops creator: use the 2 Video Mixing Channels to create spectacular visuals.
+
+- Create spectacular visuals using the Base Video Layer Styles and the Overlay Video Blend Modes, which you can combine to make hundreds of different visual effects. Each Blend Mode affects how the Base Video beneath looks. You can alter many parametres, such as hue, color, saturation and much more to give your videos those PRO effects your party needs to be the best.
+
+- Select up to 7 different Special Effects which can be loaded into the Effects Button Pad. The Special Effects happen above all other layers. The VJ can press and hold a Special Effects Button and this visual will happen while the button is being pressed. Upon release (mouse out), the effect stops. By default there will be 7 Effects pre-assigned, but by pressing the FX+ Button, these can be changed in the Select Effects Window.
 
 
-## Release History
+— 2 video mixing channels —
 
-* 1.1.0 New UI design
-
-
-## Contribute
-
-We would love for you to contribute to **Ruler**, check the ``LICENSE`` file for more info.
-
-## Thanks
-[ARuler](https://github.com/duzexu/ARuler) Mesure distance using apple ARKit
+The two video channels have slider controls that allow the VJ to control the speed, opacity and sensitivity of each video loop, as well as assigning a blend mode and a layer style which customises their visuals. You can also edit and save cropped versions of any of the video loops so that you build up your own library of loops to mix with. The app launches with over 30 exclusive video loops included for free, and features a Video Shop that will give users the ability to browse and purchase new material from an extensive library of Video Loop Packages. This way, you can build a custom video library to suit your own style and needs.
 
 
-## Meta
+— 1 image layer —
 
-TBXark – [@tbxark](https://twitter.com/tbxark) – tbxark@outlook.com
+The image layer comes with 6 free image packages containing over 100 images which can be mixed into the output video. You can adjust the size, opacity and sensitivity of your chosen image, which will appear above the video layers. If you want to add any other image packs for a specifically themed event, just visit the Image Shop!
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/TBXark](https://github.com/TBXark)
+— 1 text layer —
 
-[swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
-[swift-url]: https://swift.org/
-[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
-[license-url]: LICENSE
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[codebeat-image]: https://codebeat.co/badges/c19b47ea-2f9d-45df-8458-b2d952fe9dad
-[codebeat-url]: https://codebeat.co/projects/github-com-vsouza-awesomeios-com
+In DJVJ you can write any desired custom text to output to your festival screens. You can edit the size and colour of the text and select the font style amongst a selection cool typographies, and this layer too you can then control via its sensor and opacity sliders.
+
+
+— 1 special effects button-pad —
+
+DJVJ comes with 20 free special effects which become one of the coolest features when doing a live mix. You have a special effects button-pad on the main screen of the UI with 7 effect buttons, and you can choose which effect you want to load in each of them from the FX+ selection window. Just drag your desired effects over the container buttons, save your settings and enjoy! The effects are applied live to your entire output.
+
+## Contact Information
+hulala07@outlook.com
+
+
